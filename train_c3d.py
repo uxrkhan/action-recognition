@@ -18,7 +18,7 @@ n_epoch = 100
 
 # FETCH DATASET
 data = Data(seq_length, image_shape)
-n_classes = len(data.clases)
+n_classes = len(data.classes)
 steps_per_epoch = (len(data.data) * 0.7) // batch_size
 
 # GENERATE DATA
